@@ -13,14 +13,23 @@ The cleaned dataset was obtained from Kaggle's fe-course-data dataset.
 The model uses features such as:
 
 Loudness
+
 Tempo
+
 Speechiness
+
 Acousticness
+
 Instrumentalness
+
 Liveness
+
 Valence
+
 Duration
+
 Key
+
 Mode
 
 A song is classified as:
@@ -29,8 +38,11 @@ Not Popular: popularity score < 60
 
 # Model
 I used Support Vector Classification (SVC) with:
+
 RBF kernel
+
 Polynomial kernel
+
 StandardScaler for feature scaling
 
 # Results
